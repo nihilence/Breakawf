@@ -15,3 +15,8 @@ body{
   background-image: url("http://hdwallpaperia.com/wp-content/uploads/2013/10/Cool-Desktop-Wallpaper.jpg");
   opacity:30%;
 }
+
+canvas{
+  width:75%;
+  border-radius: 50px;
+}
