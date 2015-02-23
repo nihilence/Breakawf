@@ -4,13 +4,18 @@
   </head>
 
   <body>
-    <canvas style="border: solid thin black; margin-left: 15%;"></canvas>
+    <ul class="instr"><li>"space" -- launch</li>
+                      <li> "a" -- paddle left</li>
+                      <li> "d" -- paddle right</li></ul>
+    <canvas style="border: solid thin black; margin-left: 2%;"></canvas>
     <script type="application/javascript" src="vendor/keymaster.js"></script>
     <script type="application/javascript" src="lib/ball.js"></script>
     <script type="application/javascript" src="lib/brick.js"></script>
     <script type="application/javascript" src="lib/paddle.js"></script>
     <script type="application/javascript" src="lib/game.js"></script>
-    <script type="application/javascript">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/ffs.css">
+
+    <script>
       (function () {
         var canvasEl = document.getElementsByTagName("canvas")[0];
         canvasEl.width = 1000;
@@ -19,10 +24,10 @@
 
         var game = new Breakoff.Game(ctx);
         game.setup(ctx);
-        var bkgnd = new Audio("assets/Battle.mp3");
-        bkgnd.loop = true;
-        bkgnd.volume = .2;
-        bkgnd.play();
+        // var bkgnd = new Audio("assets/Battle.mp3");
+        // bkgnd.loop = true;
+        // bkgnd.volume = .2;
+        // bkgnd.play();
 
       })();
     </script>
