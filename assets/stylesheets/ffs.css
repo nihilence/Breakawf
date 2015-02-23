@@ -1,0 +1,17 @@
+.instr{
+  float: left;
+  color: black;
+  list-style: none;
+  font-size: 20px;
+  margin-top: 40%;
+  font-weight: bold;
+}
+
+.instr >li{
+  margin-bottom: 15px;
+}
+
+body{
+  background-image: url("http://hdwallpaperia.com/wp-content/uploads/2013/10/Cool-Desktop-Wallpaper.jpg");
+  opacity:30%;
+}
