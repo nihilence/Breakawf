@@ -1,7 +1,9 @@
 # Breakawf
 
   JavaScript game modeled after Breakout but with more cats!
-  [play]: http://nihilence.github.io/Breakawf/
+  
+#PLAY
+  http://nihilence.github.io/Breakawf/
 
 #Directions
   "space" -- launch
